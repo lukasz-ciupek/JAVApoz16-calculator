@@ -1,5 +1,8 @@
 package pl.sda.spring.operation;
 
+import org.springframework.stereotype.Component;
+
+@Component
 class SubtractionOperation implements Operation {
 
     @Override
