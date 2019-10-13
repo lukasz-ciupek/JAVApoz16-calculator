@@ -1,5 +1,8 @@
 package pl.sda.spring.operation;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PercentageOperation implements Operation {
     @Override
     public double calculate(double arg1, double arg2) {
